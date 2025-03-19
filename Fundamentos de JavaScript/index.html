@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+    <h1>Fundamentos de javascript</h1>
+    <p>Principalmente empezemos por identificar que es Javascript.</p><br>
+    <p>Este, a diferencia de Html o CSS, es un lenguaje que ayuda a hacer las páginas interactivas</p><br>
+    <p>Existen páginas muy utiles que te ayudarán a concoer mas acerca del uso tanto de JavaScript como de CSS o HTML</p>
+    <a class="Enlace_general" href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Haz clic aqui para conocer una de ellas</a>
+    </header>
+    <div id="guiño">
+        <p>Prueba reinicar la página constantemente</p>
+    </div>
+    <section class="Clase_B">
+    <h1>Sintaxis Básica y variables</h1>
+    <div id="ddv"><h2>Declaración de variables</h2>
+    <p>A la hora de declarar una variable existen diferentes formas de hacerlo</p><br>
+    <dl>
+        <dt><h3>Var</h3></dt>
+        <dd><p>Declaración de variable con alcance global o local</p></dd>
+        <dt><h3>Let</h3></dt>
+        <dd><p>Declaración devariable con alcance local y bloqueado</p></dd>
+        <dt><h3>Const</h3></dt>
+        <dd><p>Declaración de variable constante con alcance local y bloqueado</p></dd>
+    </dl>
+    </div>
+    <div id="tdd">
+        <h2>Tipos de datos</h2>
+        <table border="2">
+            <tr id="tr1">
+                <th>Tipos de datos</th>
+                <th>Significado</th>
+                <th>Definición</th>
+                <th>Ejemplo</th>
+            </tr>
+            <tr>
+                <td>String</td>
+                <td>Secuencia de caracteres que se utilizan para representar un texto</td>
+                <td>Se pueden definir usando ' o "</td>
+                <td>"Hola mundo"</td>
+            </tr>
+            <tr>
+                <td>Number</td>
+                <td>Un valor numérico usado paraa representar números enteros o decimales</td>
+                <td>Se pueden definir utilizando números enteros o decimales</td>
+                <td>5, 2.5, -5</td>
+            </tr>
+            <tr>
+                <td>Boolean</td>
+                <td>Es un valor lógico que puede ser o verdadero o falso</td>
+                <td>Se utilizan para representar condiciones lógicas</td>
+                <td>True, False</td>
+            </tr>
+            <tr>
+                <td>Array</td>
+                <td>Es una colección de valores que se pueden acceder mediante un índice</td>
+                <td>Se definen usando corchetes y separando elemntos con comas</td>
+                <td>[ 1, 2, 3]</td>
+            </tr>
+            <tr>
+                <td>Object</td>
+                <td>Es una colección de pares clave-valor que se pueden acceder mediante clave</td>
+                <td>Se definen usando llaves y separando los pares clave-valor con con comas</td>
+                <td>{ nombres "Juan", edad "30" }</td>
+            </tr>
+        </table>
+    </div>
+    <div id="O">
+     <h1>Operadores</h1>
+     <h2>Aritméticos</h2> 
+    <dl>
+     <dt><h3>Suma</h3></dt> 
+     <dd><p>Se utiliza para sumar dos números o concatenar cadenas de texto</p></dd>
+     <dt><h3>Resta</h3></dt>
+     <dd><p>Se utiliza para restar un numero de otro</p></dd> 
+     <dt><h3>Multiplicación</h3></dt>
+     <dd><p>Se utiliza para multiplicar dos numeros</p></dd> 
+     <dt><h3>División</h3></dt>
+     <dd><p>Se utiliza para dividir un numero entre otro</p></dd> 
+    </dl>
+     <h2>Incremento y decremento</h2>
+     <dl>
+     <dt><h3>Incremento</h3></dt> 
+     <dd><p>Se utiliza para incrementar un numero en 1</p></dd> 
+     <dt><h3>Decremento</h3></dt> 
+     <dd><p>Se utiliza para decrementar un numero en 1</p></dd> 
+    </dl>
+
+     <h2>Operadores logicos</h2> 
+    <dl>
+     <dt><h3>&& Y logico</h3></dt>
+     <dd><p>Se utiliza para comprobar si dos condiciones son verdaderas</p></dd> 
+     <dt><h3>|| O logico</h3></dt> 
+     <dd><p>Se utiliza para comprobar si al menos una de las condiciones son verdaderas</p></dd> 
+     <dt><h3>! Negacion logica</h3></dt>
+     <dd><p>Se utiliza para negar una condición</p></dd>
+    </dl>
+    </div>
+    </section>
+    <section class="Clase_A">
+        <article class="Articulo_A"><h1>Estructuras de control</h1>
+        <div id="Condicionales">
+            <h2>Condicionales</h2>
+            <p>Se utilizan para ejecutar un bloque de código si se cumple una condición.</p>
+            <ul>
+                <li>if: Condición simple.</li>
+                <li>else if: Condición múltiple.</li>
+                <li>else: Condición alternativa.</li>
+                <li>switch: Selección múltiple.</li>
+            </ul>
+        </div>
+        <div id="Bucles">
+            <h2>Bucles</h2>
+            <p>Se utilizan para ejecutar un bloque de código repetidamente.</p>
+            <ul>
+                <li>for: Bucle con contador.</li>
+                <li>while: Bucle con condición.</li>
+                <li>do while: Bucle con condición al final.</li>
+            </ul> 
+        </div>
+        <div id="Funciones">
+            <h2>Funciones</h2>
+            <p>Se utilizan para agrupar un bloque de código que se puede ejecutar varias veces.</p>
+            <ul>
+                <li>function: Declaración de función.</li>
+            </ul>
+        </div>
+        <div id="Definicionpyr">
+            <h2>Parámetros</h2>
+            <p>Valores que se pasan a la función</p>
+            <h2>Return</h2>
+            <p>Valor que se devuelve desde la función.</p>
+        </div>
+    </section>
+    <section class="Clase_A">
+        <article class="Articulo_A"><h1>Manipulación del DOM</h1>
+        <div id="Seleccionare">
+            <h2>Seleccionar elementos</h2>
+            <p>Existen métodos para seleccionar elementos en un documento de HTML</p>
+            <ul>
+                <li>document.querySelector(): Selecciona un elemento según un selector CSS.</li>
+                <li>document.getElementById(): Selecciona un elemento según su ID.</li> 
+            </ul>
+        </div>
+        <div id="Modificarc">
+            <h2>Modificar contenido</h2>
+            <p>También se utlizan propiedades y métodos para modificar el contenido de los elementos</p>
+            <ul>
+                <li>innerHTML: Contenido HTML del elemento.</li>
+                <li>textContent: Contenido de texto del elemento.</li>
+            </ul>
+        </div>
+        <div id="Cambiare">
+            <h2>Cambiar estilos</h2>
+            <p>A su vez, también existen propiedades y métodos para cambiar los estilos de los elementos</p>
+            <ul>
+                <li>element.style: Propiedades de estilo del elemento.</li>
+            </ul>
+        </div>
+        <div id="Agregaroec">
+            <h2>Agregar o eliminar clases</h2>
+            <p>hay métodos que son usados para agregar o eliminar clases CSS de los elementos</p>
+            <ul>
+                <li>classList.add(): Agrega una clase CSS al elemento.</li>
+                <li>classList.remove(): Elimina una clase CSS del elemento.</li>
+            </ul>
+        </div>
+    </article>
+    </section>
+    <section class="Clase_A">
+        <article class="Articulo_A"><h1>Eventos JavaScript</h1>
+        <div id="Escuchare">
+            <h2>Escuchar eventos</h2>
+            <ul>
+                <li>onclick: Evento de clic en un elemento.</li>
+                <li>onmouseover: Evento de paso del mouse sobre un elemento.</li>
+                <li>onkeydown: Evento de pulsación de una tecla.</li>
+                <li>addEventListener(): Agrega un evento a un elemento.</li>
+            </ul>
+        </div>
+        <div id="Prevenira">
+            <h2>Prevenir acciones</h2>
+            <ul>
+                <li>event.preventDefault(): Previene la acción predeterminada del evento.</li>
+            </ul>
+        </div>
+    </article>
+    </section>
+    <div class="Comentarios">
+        <textarea name="Comentarios" id="Comentarios" placeholder="Si tienes algún comentario, escríbelo aquí"></textarea><br>
+        <button type="submit">Enviar comentarios</button><br>
+        <button type="reset">Borrar escrito</button>
+    </div>
+    
+
+    <footer>
+            <h1>Contáctanos ahora mismo</h1>
+            <a class="Enlace_general" href="https://wa.me/1234567890" target="_blank">Envía un mensaje</a>
+            <p>&copy;Todos los derechos rervados</p>
+    </footer>
+    
+</body>
+</html>
